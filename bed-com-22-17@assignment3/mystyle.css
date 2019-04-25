@@ -1,0 +1,77 @@
+	body{
+		background-image: url(ea.jpeg);
+		height: 0px;
+		margin:0;
+		padding:0;
+		font-family: sans-serif;
+		overflow: hidden;
+
+		}
+	.holder{
+		
+		position: fixed;
+		width:40%; 
+		height:80%;
+		overflow-y:scroll; 
+		overflow-x: hidden;
+		top:10%;
+		border: 1px solid #fff;
+		left:30%;
+		border-radius:10px;
+		background: #dddddd;
+		box-shadow: 2px 2px #aaa;
+		}
+	nav{
+		position: fixed;
+		background:#ddd;
+		box-shadow: 2px 2px #cccccc;
+		width: 39%;
+		border-bottom: 2px;
+		border-radius: 5px;
+		z-index: 9999;
+		margin-bottom: 2px;
+		}
+	#nav-list{list-style: none; 
+		display:inline-flex; 
+		font-size: 16px;
+		}
+	#to_do_list{position: relative; 
+		color: #000; 
+		}
+	a{text-decoration: none;}
+	#clock{position: relative; 
+		left:450%; color: #000; 
+		}
+	.listing{list-style: none;}
+	.to_do_listing{position: relative; width:95%; display: none;}
+	.listitem{background: #4444aa;  position: relative; padding: 5px; font-size: 20px; margin-bottom: 14px; color: #fff;}
+	.when{position: relative; color: #999999; }
+	.add-icon { z-index: 9999; display: none;
+	border: 2px solid white; padding: 10px; border-radius: 10%; position: fixed; top:70%; left: 60%; background: white;
+}
+	.list-empty{font-size: 26px; color: red; padding: 5px; position: absolute; top:40%; display: none; text-align: center;}
+	.add-item{display: none;}
+	#add-features{list-style: none; display: inline-flex;}
+	#edit-feature-cancel{position: relative; color: #fff; padding: 5px; background: red; border-radius:10px; }
+	#edit-feature-save{position: relative; left:300%; color: #fff; padding: 5px; background: green; border-radius:10px;}
+	input{width: 90%; padding-bottom: 20px;margin-bottom: 30px; border-top: 0px ;}
+	.field{ position: relative; left:7%;}
+		.clock{
+		text-align:center;
+		width:auto;
+		height:auto;
+		display: none;
+		}
+		.time{text-align: center; color:#999; }
+		.in-clock{font-size: 36px;}
+		.world-clock{display: none;}
+		.wc{position: relative; text-align:center;  color: #fff; border: 2px solid #ada; background: #ada; padding: 10px; width:30%; left: 32%; margin-top:20px;}
+		.back{position: relative; left:8%; color: red;}
+		.zone-listing{list-style: none;}
+		.zonelistitem{background: #22aa22;  position: relative; padding: 5px; font-size: 20px; margin-bottom: 14px; color: #fff;}
+		.zone-time{color: #fff;}
+		.item-description{padding-left: 40px; padding-top: 10px; display: none;}
+		#cancel-b{color: #f00; font-size: 20px;}
+		.item-title{font-size: 36px;}
+		.event-time{font-size: 20px;}
+		.identifier{display: none;}
